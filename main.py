@@ -14,7 +14,7 @@ def about_me():
     return "my name is Abdy"
 @app.route("/my info")
 def askarov():
-    return "Askerbekov Abdyrazzak Marsovich \nFull Code IT Academy\ncity: Bishkek"
+    return "Askerbekov Abdyrazzak Marsovich Full Code IT Academy city: Bishkek"
 
 if __name__=='__main__':
     app.run(debug=True, )
